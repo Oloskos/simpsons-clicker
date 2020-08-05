@@ -7,7 +7,7 @@ Resources
 	*duff|duffs
 		name:Duff Beer|Duff Beers
 		desc:The best drink in the Simpsons' universe, period.
-		text:[duff] Duff Beer[s?Duff Beers]
+		text:[duff] Duff
 		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/db.png
 
 Buttons
