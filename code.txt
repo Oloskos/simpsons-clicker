@@ -17,11 +17,16 @@ Buttons
 		desc:D'oh!
 		
 		class:bigButton hasFlares
-		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/homer.png
+		icon:
+			if (have margeUnlock) https://pipe.miroware.io/5f28779a9e3328402788173b/MargeSimpson.png
+			else https://pipe.miroware.io/5f28779a9e3328402788173b/homer.png
+			end
 		no text
 		
-		on click:yield 1 duff
-		
+		on click:
+			if (have margeUnlock) yield 2 duff
+			else yield 1 duff
+			end
 Achievements
 	*yum
 		name:Delicious!
@@ -67,4 +72,12 @@ Upgrades
 		passive:
 			multiply yield of sofa by 2
 			end
+			
+		
+	*margeUnlock
+		name:Marge
+		desc:Oh, Homie...
+		
+		req:300 duff
+		cost:300 duff
 		
