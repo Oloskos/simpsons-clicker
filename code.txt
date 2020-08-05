@@ -3,6 +3,12 @@ Let's make a game!
 	by:oloskossi
 	version:1
 	
+on chpic:
+	if (have margeUnlock) https://pipe.miroware.io/5f28779a9e3328402788173b/MargeSimpson.png
+	else https://pipe.miroware.io/5f28779a9e3328402788173b/homer.png
+	end
+	
+	
 Resources
 	*duff|duffs
 		name:Duff Beer
@@ -17,10 +23,8 @@ Buttons
 		desc:D'oh!
 		
 		class:bigButton hasFlares
-		icon:
-			if (have margeUnlock) https://pipe.miroware.io/5f28779a9e3328402788173b/MargeSimpson.png
-			else https://pipe.miroware.io/5f28779a9e3328402788173b/homer.png
-			end
+		do chpic
+
 		no text
 		
 		on click:
