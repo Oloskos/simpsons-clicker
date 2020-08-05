@@ -34,6 +34,17 @@ Buttons
 		
 		on click:yield 2 duff
 		
+	*bart
+		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/bart.png
+		
+		name:Bart
+		desc:<q>Ay, caramba!</q>
+		no text
+		
+		class:bigButton hasFlares
+		
+		on click:yield 4 duff
+		
 Achievements
 	*yum
 		name:Delicious!
@@ -93,3 +104,13 @@ Upgrades
 			show marge
 			end
 		
+	*bartUnlock
+		name:<b>Bart</b>
+		desc:Ay, caramba!
+		
+		req:1000 duff, have margeUnlock
+		cost:1000 duff
+		
+		on earn:
+			hide marge
+			
