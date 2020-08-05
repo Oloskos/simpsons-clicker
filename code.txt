@@ -4,8 +4,8 @@ Let's make a game!
 	version:1
 	
 on chpic:
-	if (have margeUnlock) https://pipe.miroware.io/5f28779a9e3328402788173b/MargeSimpson.png
-	else https://pipe.miroware.io/5f28779a9e3328402788173b/homer.png
+	if (have margeUnlock) icon: https://pipe.miroware.io/5f28779a9e3328402788173b/MargeSimpson.png
+	else icon: https://pipe.miroware.io/5f28779a9e3328402788173b/homer.png
 	end
 	
 	
