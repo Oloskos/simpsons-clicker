@@ -43,6 +43,19 @@ Buildings
 			yield 0.1 duff
 			end 
 			
+	*house
+		name:742 Evergreen Terrace
+		desc:I feel sorry for the garage door... It gets ruined every episode.
+		
+		req:300 duff
+		cost:300 duff
+		
+		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/houseresized.png
+		
+		on tick:
+			yield 1 duff
+			end
+			
 Upgrades 
 	*fluffCushions
 		name:Fluff Up Cushions
