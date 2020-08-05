@@ -36,6 +36,7 @@ Buttons
 		
 	*bart
 		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/bart.png
+		hidden
 		
 		name:Bart
 		desc:<q>Ay, caramba!</q>
