@@ -16,21 +16,26 @@ Resources
 
 Buttons
 	*homer
-		if (have margeUnlock) icon: https://pipe.miroware.io/5f28779a9e3328402788173b/MargeSimpson.png
-		else icon: https://pipe.miroware.io/5f28779a9e3328402788173b/homer.png
+		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/homer.png
 		
 		name:Homer
-		desc:D'oh!
+		desc:<q>D'oh!</q>
 		
 		class:bigButton hasFlares
-		do chpic
-
 		no text
 		
-		on click:
-			if (have margeUnlock) yield 2 duff
-			else yield 1 duff
-			end
+		on click:yield 1 duff
+	*marge
+		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/MargeSimpson.png
+		hidden
+		
+		name:Marge
+		desc:<q>Oh, <i>Homie...</i></q>
+		
+		class:bigButton hasFlares
+		
+		on click:yield 2 duff
+		
 Achievements
 	*yum
 		name:Delicious!
@@ -79,9 +84,14 @@ Upgrades
 			
 		
 	*margeUnlock
-		name:Marge
+		name:<#228B22>Marge</#>
 		desc:Oh, Homie...
 		
 		req:300 duff
 		cost:300 duff
+		
+		on earn:
+			hide homer
+			show marge
+			end
 		
