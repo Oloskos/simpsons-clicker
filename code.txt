@@ -1,5 +1,8 @@
 Let's make a game!
-
+	name:Simpsons Clicker
+	by:oloskossi
+	version:1
+	
 Resources
 	*duff|duffs
 		name:Duff Beer|Duff Beers
@@ -14,4 +17,10 @@ Buttons
 		class:bigButton hasFlares
 		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/homer.png
 		on click:yield 1 duff
+		
+Achievements
+	*yum
+		name:Delicious!
+		desc:Get your first Duff!
+		req:1 duff
 		
