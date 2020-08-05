@@ -1,0 +1,15 @@
+Let's make a game!
+
+Resources
+	*duff
+		name:Duff Beers
+		desc:The best drink in the Simpsons' universe, period.
+		text:[this] Duff Beer[s?Beers]
+		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/db.png
+
+Buttons
+	*homer
+		name:Homer
+		desc:D'oh!
+		class:bigButton hasFlares
+		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/homer.png
