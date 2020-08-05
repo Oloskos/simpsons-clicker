@@ -3,10 +3,7 @@ Let's make a game!
 	by:oloskossi
 	version:1
 	
-on chpic:
-	if (have margeUnlock) icon: https://pipe.miroware.io/5f28779a9e3328402788173b/MargeSimpson.png
-	else icon: https://pipe.miroware.io/5f28779a9e3328402788173b/homer.png
-	end
+
 	
 	
 Resources
@@ -19,6 +16,11 @@ Resources
 
 Buttons
 	*homer
+		on chpic:
+			if (have margeUnlock) icon: https://pipe.miroware.io/5f28779a9e3328402788173b/MargeSimpson.png
+			else icon: https://pipe.miroware.io/5f28779a9e3328402788173b/homer.png
+			end
+		
 		name:Homer
 		desc:D'oh!
 		
