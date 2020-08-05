@@ -3,9 +3,6 @@ Let's make a game!
 	by:oloskossi
 	version:1
 	
-
-	
-	
 Resources
 	*duff|duffs
 		name:Duff Beer
