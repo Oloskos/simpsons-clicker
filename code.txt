@@ -24,3 +24,13 @@ Achievements
 		desc:Get your first Duff!
 		req:1 duff
 		
+Buildings
+	*sofa
+		name:The Sofa
+		desc:Duhh, duh-duh duh duuuh duh duh duh duhduhduhduhhh
+		req:50 duff
+		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/sofa.png
+		cost:75 duff
+		on tick:
+			yield 0.1 duff
+			end 
