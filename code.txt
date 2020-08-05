@@ -114,3 +114,4 @@ Upgrades
 		on earn:
 			hide marge
 			end 
+			
