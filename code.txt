@@ -16,10 +16,8 @@ Resources
 
 Buttons
 	*homer
-		on chpic:
-			if (have margeUnlock) icon: https://pipe.miroware.io/5f28779a9e3328402788173b/MargeSimpson.png
-			else icon: https://pipe.miroware.io/5f28779a9e3328402788173b/homer.png
-			end
+		if (have margeUnlock) icon: https://pipe.miroware.io/5f28779a9e3328402788173b/MargeSimpson.png
+		else icon: https://pipe.miroware.io/5f28779a9e3328402788173b/homer.png
 		
 		name:Homer
 		desc:D'oh!
