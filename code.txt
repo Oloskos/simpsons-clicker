@@ -2,9 +2,9 @@ Let's make a game!
 
 Resources
 	*duff
-		name:Duff Beer
+		name:Duff
 		desc:The best drink in the Simpsons' universe, period.
-		text:[this] Beer
+		text:[this] Duff
 		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/db.png
 
 Buttons
