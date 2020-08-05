@@ -7,6 +7,7 @@ Resources
 	*duff|duffs
 		name:Duff Beer
 		desc:The best drink in the Simpsons' universe, period.
+		
 		text:[this] Duff
 		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/db.png
 
@@ -14,23 +15,43 @@ Buttons
 	*homer
 		name:Homer
 		desc:D'oh!
+		
 		class:bigButton hasFlares
 		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/homer.png
+		no text
+		
 		on click:yield 1 duff
 		
 Achievements
 	*yum
 		name:Delicious!
 		desc:Get your first Duff!
+		
 		req:1 duff
 		
 Buildings
 	*sofa
 		name:The Sofa
 		desc:Duhh, duh-duh duh duuuh duh duh duh duhduhduhduhhh
+		
 		req:50 duff
+		cost:50 duff
+		
 		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/sofa.png
-		cost:75 duff
+		
 		on tick:
 			yield 0.1 duff
 			end 
+			
+Upgrades 
+	*fluffCushions
+		name:Fluff Up Cushions
+		desc:Oh, this sofa is comfy now...
+		
+		req:100 duff
+		cost:100 duff
+		
+		passive:
+			multiply yield of sofa by 2
+			end
+		
