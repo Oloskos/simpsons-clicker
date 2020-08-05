@@ -31,6 +31,7 @@ Buttons
 		
 		name:Marge
 		desc:<q>Oh, <i>Homie...</i></q>
+		no text
 		
 		class:bigButton hasFlares
 		
@@ -84,7 +85,7 @@ Upgrades
 			
 		
 	*margeUnlock
-		name:<#228B22>Marge</#>
+		name:<b>Marge</b>
 		desc:Oh, Homie...
 		
 		req:300 duff
