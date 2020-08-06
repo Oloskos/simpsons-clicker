@@ -118,4 +118,4 @@ Upgrades
 			hide marge
 			end 
 			
-on start:hide sb
+on start:hide tag:sb
