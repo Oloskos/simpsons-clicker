@@ -23,7 +23,7 @@ Buttons
 		
 		on click:yield 1 duff
 	*marge
-		tags:sb
+		tag:sb
 		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/MargeSimpson.png
 		hidden
 		
@@ -36,7 +36,7 @@ Buttons
 		on click:yield 2 duff
 		
 	*bart
-		tags:sb
+		tag:sb
 		icon:https://pipe.miroware.io/5f28779a9e3328402788173b/bart.png
 		hidden
 		
@@ -117,5 +117,4 @@ Upgrades
 		on earn:
 			hide marge
 			end 
-			
 on start:hide tag:sb
