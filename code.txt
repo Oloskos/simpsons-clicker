@@ -71,7 +71,7 @@ Buildings
 			
 	*house
 		name:742 Evergreen Terrace
-		desc:I feel sorry for the garage door... It gets ruined every episode.
+		desc:I feel sorry for the garage door... it gets ruined every episode.
 		
 		req:300 duff
 		cost:300 duff
@@ -96,7 +96,7 @@ Upgrades
 			
 		
 	*margeUnlock
-		name:<b>Marge</b>
+		name:Unlock Marge
 		desc:Oh, Homie...
 		
 		req:300 duff
@@ -108,7 +108,7 @@ Upgrades
 			end
 		
 	*bartUnlock
-		name:<b>Bart</b>
+		name:Unlock Bart
 		desc:Ay, caramba!
 		
 		req:1000 duff, have margeUnlock
